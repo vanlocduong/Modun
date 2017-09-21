@@ -1,0 +1,1625 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)https://github.com/florent37/MaterialViewPager -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+
+
+
+  <link crossorigin="anonymous" href="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/frameworks-81a59bf26d881d29286674f6deefe779c444382fff322085b50ba455460ccae5.css" integrity="sha256-gaWb8m2IHSkoZnT23u/necREOC//MiCFtQukVUYMyuU=" media="all" rel="stylesheet">
+  <link crossorigin="anonymous" href="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/github-4bfc441c8c45176d1c43ba2ec0cddd3c6c199d73eefee890f7502bd87d5882c3.css" integrity="sha256-S/xEHIxFF20cQ7ouwM3dPGwZnXPu/uiQ91Ar2H1YgsM=" media="all" rel="stylesheet">
+  
+  
+  
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>florent37/MaterialViewPager: A Material Design ViewPager easy to use library</title>
+  <link rel="search" type="application/opensearchdescription+xml" href="https://github.com/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta content="https://avatars0.githubusercontent.com/u/5754972?v=3&amp;s=400" property="og:image"><meta content="GitHub" property="og:site_name"><meta content="object" property="og:type"><meta content="florent37/MaterialViewPager" property="og:title"><meta content="https://github.com/florent37/MaterialViewPager" property="og:url"><meta content="MaterialViewPager - A Material Design ViewPager easy to use library" property="og:description">
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MTY5MDk0MzA0OjQ4NmIxMzE5ODA2N2JmMDczMjFlMzVjYWI3Zjc0NjFiMTc5M2QyYjVjMWZmODIzYWM3OWE2MjQyZDQ3ZTgwYmE=--937194c9818a02e5c1fc914c6e48eba19db236be">
+  <meta name="pjax-timeout" content="1000">
+  <link rel="sudo-modal" href="https://github.com/sessions/sudo_modal">
+  <meta name="request-id" content="75CB:29132:DEFF05:1630BEA:5911185A" data-pjax-transient="">
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient="">
+
+  <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+<meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta content="collector.githubapp.com" name="octolytics-host"><meta content="github" name="octolytics-app-id"><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url"><meta content="75CB:29132:DEFF05:1630BEA:5911185A" name="octolytics-dimension-request_id"><meta content="19533386" name="octolytics-actor-id"><meta content="vanlocduong" name="octolytics-actor-login"><meta content="36c863836ac5e51790997a35278dacda76965e2419778690d2287fe713edbe97" name="octolytics-actor-hash">
+<meta content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" name="analytics-location">
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged In">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+  <meta name="user-login" content="vanlocduong">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="YTYzZTAwMjNmOWE5OTQ2ZjNjNmZhYzQzMDJlOTM5MDFmN2IyOWMzOWE5YTE5Y2Y1ZGIwODMyMWEzOTVmMTJhMXx7InJlbW90ZV9hZGRyZXNzIjoiMTEzLjE3NC4xNjguMTg5IiwicmVxdWVzdF9pZCI6Ijc1Q0I6MjkxMzI6REVGRjA1OjE2MzBCRUE6NTkxMTE4NUEiLCJ0aW1lc3RhbXAiOjE0OTQyOTI1NzEsImhvc3QiOiJnaXRodWIuY29tIn0=">
+
+
+  <meta name="html-safe-nonce" content="f8350c8c57d44b3405933ce2c6a7dc16d9e98b7c">
+
+  <meta http-equiv="x-pjax-version" content="c0153700f1f96b8b64e61be1d40e43e4">
+  
+
+    
+  <meta name="description" content="MaterialViewPager - A Material Design ViewPager easy to use library">
+  <meta name="go-import" content="github.com/florent37/MaterialViewPager git https://github.com/florent37/MaterialViewPager.git">
+
+  <meta content="5754972" name="octolytics-dimension-user_id"><meta content="florent37" name="octolytics-dimension-user_login"><meta content="34533286" name="octolytics-dimension-repository_id"><meta content="florent37/MaterialViewPager" name="octolytics-dimension-repository_nwo"><meta content="true" name="octolytics-dimension-repository_public"><meta content="false" name="octolytics-dimension-repository_is_fork"><meta content="34533286" name="octolytics-dimension-repository_network_root_id"><meta content="florent37/MaterialViewPager" name="octolytics-dimension-repository_network_root_nwo">
+  <link href="https://github.com/florent37/MaterialViewPager/commits/master.atom" rel="alternate" title="Recent Commits to MaterialViewPager:master" type="application/atom+xml">
+
+
+    <link rel="canonical" href="https://github.com/florent37/MaterialViewPager" data-pjax-transient="">
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+  <meta name="u2f-support" content="true">
+
+  </head>
+
+  <body class="logged-in env-production">
+    
+
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="https://github.com/florent37/MaterialViewPager#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        
+<div class="header" role="banner">
+  <div class="container clearfix">
+    <a class="header-logo-invertocat" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" data-ga-click="Header, go to dashboard, icon:logo">
+  <svg aria-hidden="true" class="octicon octicon-mark-github" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+</a>
+
+
+        <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --><form accept-charset="UTF-8" action="https://github.com/florent37/MaterialViewPager/search" class="js-site-search-form" data-scoped-search-url="/florent37/MaterialViewPager/search" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"></div>
+    <label class="form-control header-search-wrapper js-chromeless-input-container">
+        <a href="https://github.com/florent37/MaterialViewPager" class="header-search-scope no-underline">This repository</a>
+      <input type="text" class="form-control header-search-input js-site-search-focus js-site-search-field is-clearable" data-hotkey="s" name="q" value="" placeholder="Search" aria-label="Search this repository" data-unscoped-placeholder="Search GitHub" data-scoped-placeholder="Search" autocapitalize="off">
+        <input type="hidden" class="js-site-search-type-field" name="type">
+    </label>
+</form></div>
+
+
+      <ul class="header-nav float-left" role="navigation">
+        <li class="header-nav-item">
+          <a href="https://github.com/pulls" aria-label="Pull requests you created" class="js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:pulls context:user" data-hotkey="g p" data-selected-links="/pulls /pulls/assigned /pulls/mentioned /pulls">
+            Pull requests
+</a>        </li>
+        <li class="header-nav-item">
+          <a href="https://github.com/issues" aria-label="Issues you created" class="js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:issues context:user" data-hotkey="g i" data-selected-links="/issues /issues/assigned /issues/mentioned /issues">
+            Issues
+</a>        </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://gist.github.com/" data-ga-click="Header, go to gist, text:gist">Gist</a>
+          </li>
+      </ul>
+
+    
+<ul class="header-nav user-nav float-right" id="user-links">
+  <li class="header-nav-item">
+    
+
+  </li>
+
+  <li class="header-nav-item dropdown js-menu-container">
+    <a class="header-nav-link tooltipped tooltipped-s js-menu-target" href="https://github.com/new" aria-label="Create new…" data-ga-click="Header, create new, icon:add">
+      <svg aria-hidden="true" class="octicon octicon-plus float-left" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 9H7v5H5V9H0V7h5V2h2v5h5z"></path></svg>
+      <span class="dropdown-caret"></span>
+    </a>
+
+    <div class="dropdown-menu-content js-menu-content">
+      <ul class="dropdown-menu dropdown-menu-sw">
+        
+<a class="dropdown-item" href="https://github.com/new" data-ga-click="Header, create new repository">
+  New repository
+</a>
+
+  <a class="dropdown-item" href="https://github.com/new/import" data-ga-click="Header, import a repository">
+    Import repository
+  </a>
+
+<a class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, create new gist">
+  New gist
+</a>
+
+  <a class="dropdown-item" href="https://github.com/organizations/new" data-ga-click="Header, create new organization">
+    New organization
+  </a>
+
+
+
+  <div class="dropdown-divider"></div>
+  <div class="dropdown-header">
+    <span title="florent37/MaterialViewPager">This repository</span>
+  </div>
+    <a class="dropdown-item" href="https://github.com/florent37/MaterialViewPager/issues/new" data-ga-click="Header, create new issue">
+      New issue
+    </a>
+
+      </ul>
+    </div>
+  </li>
+
+  <li class="header-nav-item dropdown js-menu-container">
+    <a class="header-nav-link name tooltipped tooltipped-sw js-menu-target" href="https://github.com/vanlocduong" aria-label="View profile and more" data-ga-click="Header, show menu, icon:avatar">
+      <img alt="@vanlocduong" class="avatar" src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/19533386" height="20" width="20">
+      <span class="dropdown-caret"></span>
+    </a>
+
+    <div class="dropdown-menu-content js-menu-content">
+      <div class="dropdown-menu dropdown-menu-sw">
+        <div class="dropdown-header header-nav-current-user css-truncate">
+          Signed in as <strong class="css-truncate-target">vanlocduong</strong>
+        </div>
+
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="https://github.com/vanlocduong" data-ga-click="Header, go to profile, text:your profile">
+          Your profile
+        </a>
+        <a class="dropdown-item" href="https://github.com/vanlocduong?tab=stars" data-ga-click="Header, go to starred repos, text:your stars">
+          Your stars
+        </a>
+        <a class="dropdown-item" href="https://github.com/explore" data-ga-click="Header, go to explore, text:explore">
+          Explore
+        </a>
+          <a class="dropdown-item" href="https://github.com/integrations" data-ga-click="Header, go to integrations, text:integrations">
+            Integrations
+          </a>
+        <a class="dropdown-item" href="https://help.github.com/" data-ga-click="Header, go to help, text:help">
+          Help
+        </a>
+
+        <div class="dropdown-divider"></div>
+
+        <a class="dropdown-item" href="https://github.com/settings/profile" data-ga-click="Header, go to settings, icon:settings">
+          Settings
+        </a>
+
+        <!-- '"` --><!-- </textarea></xmp> --><form accept-charset="UTF-8" action="https://github.com/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="uimWCg/y8NInXAQq3tfK0ap8V5+cEyGaNnAR6zXaoJo7izOVOIvxYvH5gnHucipqQXCGHS/n5wi3+1txyQ2r/w=="></div>
+          <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+            Sign out
+          </button>
+</form>      </div>
+    </div>
+  </li>
+</ul>
+
+
+    <!-- '"` --><!-- </textarea></xmp> --><form accept-charset="UTF-8" action="https://github.com/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="XeBxbkOIiD2xEN097Z7dxEbt2W9bkluGewk+859Es8LcQtTxdPGJjWe1W2bdOz1/reEI7ehmnRT6gnRpY5O4pw=="></div>
+      <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+        Sign out
+      </button>
+</form>  </div>
+</div>
+
+
+      
+
+  </div>
+
+  <div id="start-of-content" class="accessibility-aid"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main">
+        <div itemscope="" itemtype="http://schema.org/SoftwareSourceCode">
+    <div id="js-repo-pjax-container" data-pjax-container="">
+        
+
+
+
+    <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav">
+      <div class="container repohead-details-container">
+
+        <ul class="pagehead-actions">
+  <li>
+        <!-- '"` --><!-- </textarea></xmp> --><form accept-charset="UTF-8" action="https://github.com/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="CvWU3J7ywEnKheAbuu+INaFfMg2kHEpmXaVQJ5DpnEtgSym0kqm2nQhhPKQSTSdFOpZJ3MN9+3pdIscb+no7dw=="></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="34533286">
+
+        <div class="select-menu js-menu-container js-select-menu">
+          <a href="https://github.com/florent37/MaterialViewPager/subscription" class="btn btn-sm btn-with-count select-menu-button js-menu-target" role="button" tabindex="0" aria-haspopup="true" data-ga-click="Repository, click Watch settings, action:files#disambiguate">
+            <span class="js-select-button">
+                <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
+                Watch
+            </span>
+          </a>
+            <a class="social-count js-social-count" href="https://github.com/florent37/MaterialViewPager/watchers" aria-label="253 users are watching this repository">
+              253
+            </a>
+
+        <div class="select-menu-modal-holder">
+          <div class="select-menu-modal subscription-menu-modal js-menu-content">
+            <div class="select-menu-header js-navigation-enable" tabindex="-1">
+              <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+              <span class="select-menu-title">Notifications</span>
+            </div>
+
+              <div class="select-menu-list js-navigation-container" role="menu">
+
+                <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
+                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+                  <div class="select-menu-item-text">
+                    <input checked="checked" id="do_included" name="do" type="radio" value="included">
+                    <span class="select-menu-item-heading">Not watching</span>
+                    <span class="description">Be notified when participating or @mentioned.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
+                      Watch
+                    </span>
+                  </div>
+                </div>
+
+                <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+                  <div class="select-menu-item-text">
+                    <input id="do_subscribed" name="do" type="radio" value="subscribed">
+                    <span class="select-menu-item-heading">Watching</span>
+                    <span class="description">Be notified of all conversations.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
+                        Unwatch
+                    </span>
+                  </div>
+                </div>
+
+                <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                  <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+                  <div class="select-menu-item-text">
+                    <input id="do_ignore" name="do" type="radio" value="ignore">
+                    <span class="select-menu-item-heading">Ignoring</span>
+                    <span class="description">Never be notified.</span>
+                    <span class="js-select-button-text hidden-select-button-text">
+                      <svg aria-hidden="true" class="octicon octicon-mute" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8 2.81v10.38c0 .67-.81 1-1.28.53L3 10H1c-.55 0-1-.45-1-1V7c0-.55.45-1 1-1h2l3.72-3.72C7.19 1.81 8 2.14 8 2.81zm7.53 3.22l-1.06-1.06-1.97 1.97-1.97-1.97-1.06 1.06L11.44 8 9.47 9.97l1.06 1.06 1.97-1.97 1.97 1.97 1.06-1.06L13.56 8l1.97-1.97z"></path></svg>
+                        Stop ignoring
+                    </span>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+</form>
+  </li>
+
+  <li>
+      <div class="js-toggler-container js-social-container starring-container ">
+    <!-- '"` --><!-- </textarea></xmp> --><form accept-charset="UTF-8" action="https://github.com/florent37/MaterialViewPager/unstar" class="starred" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="YbLW2aEH/+Iudwb4nUVNsPP1kkQ05tEUjML9dSwdFFGUfCLC59Vd1c1gMn1tv3xCzVt24d70WNAN4BcyAo5SeA=="></div>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar florent37/MaterialViewPager" data-ga-click="Repository, click unstar button, action:files#disambiguate; text:Unstar">
+        <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+        Unstar
+      </button>
+        <a class="social-count js-social-count" href="https://github.com/florent37/MaterialViewPager/stargazers" aria-label="5993 users starred this repository">
+          5,993
+        </a>
+</form>
+    <!-- '"` --><!-- </textarea></xmp> --><form accept-charset="UTF-8" action="https://github.com/florent37/MaterialViewPager/star" class="unstarred" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="4DL5XgOky9agLrugqqcGCk6b2yaqOPAtP7S0d/1azAnYpF4KVtpwael9RyqnOO6pUUwaHTOstad2zYW6/w8Y7w=="></div>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Star this repository" title="Star florent37/MaterialViewPager" data-ga-click="Repository, click star button, action:files#disambiguate; text:Star">
+        <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+        Star
+      </button>
+        <a class="social-count js-social-count" href="https://github.com/florent37/MaterialViewPager/stargazers" aria-label="5993 users starred this repository">
+          5,993
+        </a>
+</form>  </div>
+
+  </li>
+
+  <li>
+          <!-- '"` --><!-- </textarea></xmp> --><form accept-charset="UTF-8" action="https://github.com/florent37/MaterialViewPager/fork" class="btn-with-count" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="pizjY16Q6rNOluALn1Xb3v+JKmzidPhNoM7mLIIY3itn3VxdJxo2THluSoI0njFhqhEtKfWm8lKYvjyQR7AqbQ=="></div>
+            <button type="submit" class="btn btn-sm btn-with-count" data-ga-click="Repository, show fork modal, action:files#disambiguate; text:Fork" title="Fork your own copy of florent37/MaterialViewPager to your account" aria-label="Fork your own copy of florent37/MaterialViewPager to your account">
+              <svg aria-hidden="true" class="octicon octicon-repo-forked" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+              Fork
+            </button>
+</form>
+    <a href="https://github.com/florent37/MaterialViewPager/network" class="social-count" aria-label="1200 users forked this repository">
+      1,200
+    </a>
+  </li>
+</ul>
+
+        <h1 class="public ">
+  <svg aria-hidden="true" class="octicon octicon-repo" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
+  <span class="author" itemprop="author"><a href="https://github.com/florent37" class="url fn" rel="author">florent37</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a href="https://github.com/florent37/MaterialViewPager" data-pjax="#js-repo-pjax-container">MaterialViewPager</a></strong>
+
+</h1>
+
+      </div>
+      <div class="container">
+        
+<nav class="reponav js-repo-nav js-sidenav-container-pjax" itemscope="" itemtype="http://schema.org/BreadcrumbList" role="navigation" data-pjax="#js-repo-pjax-container">
+
+  <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a href="https://github.com/florent37/MaterialViewPager" class="js-selected-navigation-item selected reponav-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /florent37/MaterialViewPager" itemprop="url">
+      <svg aria-hidden="true" class="octicon octicon-code" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"></path></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a href="https://github.com/florent37/MaterialViewPager/issues" class="js-selected-navigation-item reponav-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /florent37/MaterialViewPager/issues" itemprop="url">
+        <svg aria-hidden="true" class="octicon octicon-issue-opened" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">156</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a href="https://github.com/florent37/MaterialViewPager/pulls" class="js-selected-navigation-item reponav-item" data-hotkey="g p" data-selected-links="repo_pulls /florent37/MaterialViewPager/pulls" itemprop="url">
+      <svg aria-hidden="true" class="octicon octicon-git-pull-request" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">0</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a href="https://github.com/florent37/MaterialViewPager/projects" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /florent37/MaterialViewPager/projects">
+      <svg aria-hidden="true" class="octicon octicon-project" height="16" version="1.1" viewBox="0 0 15 16" width="15"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"></path></svg>
+      Projects
+      <span class="Counter">0</span>
+</a>
+    <a href="https://github.com/florent37/MaterialViewPager/wiki" class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /florent37/MaterialViewPager/wiki">
+      <svg aria-hidden="true" class="octicon octicon-book" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"></path></svg>
+      Wiki
+</a>
+
+
+  <a href="https://github.com/florent37/MaterialViewPager/pulse" class="js-selected-navigation-item reponav-item" data-selected-links="pulse /florent37/MaterialViewPager/pulse">
+    <svg aria-hidden="true" class="octicon octicon-pulse" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M11.5 8L8.8 5.4 6.6 8.5 5.5 1.6 2.38 8H0v2h3.6l.9-1.8.9 5.4L9 8.5l1.6 1.5H14V8z"></path></svg>
+    Pulse
+</a>
+  <a href="https://github.com/florent37/MaterialViewPager/graphs" class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors /florent37/MaterialViewPager/graphs">
+    <svg aria-hidden="true" class="octicon octicon-graph" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"></path></svg>
+    Graphs
+</a>
+
+</nav>
+
+      </div>
+    </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav">
+  <div class="repository-content">
+
+    
+          
+<div class="js-repo-meta-container">
+  <div class="repository-meta mb-0  js-repo-meta-edit js-details-container">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            A Material Design ViewPager easy to use library
+          </span>
+    </div>
+
+  </div>
+
+    <div class="mb-3 repository-topics-container js-repository-topics-container js-details-container">
+      <div id="topics-list-container" data-url="/florent37/MaterialViewPager/settings/topics">
+          <div class="list-topics-container f6 mt-1">
+      <a href="https://github.com/search?q=topic%3Amaterial&amp;type=Repositories" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:material">
+        material
+      </a>
+      <a href="https://github.com/search?q=topic%3Aandroid&amp;type=Repositories" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:android">
+        android
+      </a>
+      <a href="https://github.com/search?q=topic%3Aviewpager&amp;type=Repositories" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:viewpager">
+        viewpager
+      </a>
+      <a href="https://github.com/search?q=topic%3Ajava&amp;type=Repositories" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:java">
+        java
+      </a>
+      <a href="https://github.com/search?q=topic%3Atoolbar&amp;type=Repositories" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:toolbar">
+        toolbar
+      </a>
+      <a href="https://github.com/search?q=topic%3Ascroll&amp;type=Repositories" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:scroll">
+        scroll
+      </a>
+      <a href="https://github.com/search?q=topic%3Aparallax&amp;type=Repositories" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:parallax">
+        parallax
+      </a>
+      <a href="https://github.com/search?q=topic%3Akenburnsview&amp;type=Repositories" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:kenburnsview">
+        kenburnsview
+      </a>
+      <a href="https://github.com/search?q=topic%3Amaterialviewpager&amp;type=Repositories" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:materialviewpager">
+        materialviewpager
+      </a>
+  </div>
+
+
+      </div>
+
+    </div>
+</div>
+
+
+<div class="overall-summary overall-summary-bottomless">
+  <div class="stats-switcher-viewport js-stats-switcher-viewport">
+    <div class="stats-switcher-wrapper">
+    <ul class="numbers-summary">
+      <li class="commits">
+        <a data-pjax="" href="https://github.com/florent37/MaterialViewPager/commits/master">
+            <svg aria-hidden="true" class="octicon octicon-history" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"></path></svg>
+            <span class="num text-emphasized">
+              291
+            </span>
+            commits
+        </a>
+      </li>
+      <li>
+        <a data-pjax="" href="https://github.com/florent37/MaterialViewPager/branches">
+          <svg aria-hidden="true" class="octicon octicon-git-branch" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+          <span class="num text-emphasized">
+            5
+          </span>
+          branches
+        </a>
+      </li>
+
+      <li>
+        <a data-pjax="" href="https://github.com/florent37/MaterialViewPager/releases">
+          <svg aria-hidden="true" class="octicon octicon-tag" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M7.73 1.73C7.26 1.26 6.62 1 5.96 1H3.5C2.13 1 1 2.13 1 3.5v2.47c0 .66.27 1.3.73 1.77l6.06 6.06c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41L7.73 1.73zM2.38 7.09c-.31-.3-.47-.7-.47-1.13V3.5c0-.88.72-1.59 1.59-1.59h2.47c.42 0 .83.16 1.13.47l6.14 6.13-4.73 4.73-6.13-6.15zM3.01 3h2v2H3V3h.01z"></path></svg>
+          <span class="num text-emphasized">
+            12
+          </span>
+          releases
+        </a>
+      </li>
+
+      <li>
+          <a href="https://github.com/florent37/MaterialViewPager/graphs/contributors">
+  <svg aria-hidden="true" class="octicon octicon-organization" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4"></path></svg>
+    <span class="num text-emphasized">
+      18
+    </span>
+    contributors
+</a>
+
+      </li>
+        <li>
+          <a href="https://github.com/florent37/MaterialViewPager/blob/master/LICENSE">
+            <svg aria-hidden="true" class="octicon octicon-law" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"></path></svg>
+              Apache-2.0
+          </a>
+        </li>
+    </ul>
+
+      <div class="repository-lang-stats">
+        <ol class="repository-lang-stats-numbers">
+          <li>
+              <a href="https://github.com/florent37/MaterialViewPager/search?l=java" data-ga-click="Repository, language stats search click, location:repo overview">
+                <span class="color-block language-color" style="background-color:#b07219;"></span>
+                <span class="lang">Java</span>
+                <span class="percent">100.0%</span>
+              </a>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="repository-lang-stats-graph js-toggle-lang-stats" title="Click for language details" data-ga-click="Repository, language bar stats toggle, location:repo overview">
+    <span class="language-color" aria-label="Java 100.0%" style="width:100.0%; background-color:#b07219;" itemprop="keywords">Java</span>
+  </div>
+
+  
+
+<div class="file-navigation in-mid-page">
+
+    <div class="select-menu get-repo-select-menu js-menu-container float-right select-menu-modal-right">
+  <button class="btn btn-sm btn-primary select-menu-button js-menu-target" title="Clone or download this repository" type="button" aria-label="Clone or download this repository" tabindex="0" aria-haspopup="true">
+    <span>Clone or download</span>
+  </button>
+
+  <div class="select-menu-modal-holder dropdown-menu-content js-menu-content">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container ">
+      <div class="clone-options https-clone-options">
+          <!-- '"` --><!-- </textarea></xmp> --><form accept-charset="UTF-8" action="https://github.com/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="rFIAweXr3LaxcAZaNGSOQ2gWQT8UNlestRRlM+DlNWNW6PMTCRLDh9QfOuvwRq0fzBoumiP9+3ornlrWkDGThw=="></div><button class="btn-link btn-change-protocol js-toggler-target float-right" type="submit">Use SSH</button></form>
+
+        <h4 class="mb-1">
+          Clone with HTTPS
+          <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+            <svg aria-hidden="true" class="octicon octicon-question" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"></path></svg>
+          </a>
+        </h4>
+        <p class="mb-2 get-repo-decription-text">
+          Use Git or checkout with SVN using the web URL.
+        </p>
+
+        <div class="input-group js-zeroclipboard-container">
+  <input type="text" class="form-control input-monospace input-sm js-zeroclipboard-target js-url-field" value="https://github.com/florent37/MaterialViewPager.git" aria-label="Clone this repository at https://github.com/florent37/MaterialViewPager.git" readonly="">
+  <div class="input-group-button">
+    <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><svg aria-hidden="true" class="octicon octicon-clippy" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"></path></svg></button>
+  </div>
+</div>
+
+      </div>
+
+        <div class="clone-options ssh-clone-options">
+          <!-- '"` --><!-- </textarea></xmp> --><form accept-charset="UTF-8" action="https://github.com/users/set_protocol?protocol_selector=https&amp;protocol_type=clone" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="woa0WLbSvedAfavigmQZcfD1yUX8ZoEdahdu7F5/1jk4PEeKWiui1iUSl1NGRjotVPmm4MutLcv0nVEJLqtw3Q=="></div><button class="btn-link btn-change-protocol js-toggler-target float-right" type="submit">Use HTTPS</button></form>
+
+            <h4 class="mb-1">
+              Clone with SSH
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg aria-hidden="true" class="octicon octicon-question" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"></path></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use an SSH key and passphrase from account.
+            </p>
+
+            <div class="input-group js-zeroclipboard-container">
+  <input type="text" class="form-control input-monospace input-sm js-zeroclipboard-target js-url-field" value="git@github.com:florent37/MaterialViewPager.git" aria-label="Clone this repository at git@github.com:florent37/MaterialViewPager.git" readonly="">
+  <div class="input-group-button">
+    <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><svg aria-hidden="true" class="octicon octicon-clippy" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"></path></svg></button>
+  </div>
+</div>
+
+        </div>
+
+      <div class="mt-2">
+          <a href="https://windows.github.com/" class="btn btn-outline get-repo-btn tooltipped tooltipped-s tooltipped-multiline" aria-label="Clone florent37/MaterialViewPager to your computer and use it in GitHub Desktop.">
+    Open in Desktop
+  </a>
+
+<a href="https://github.com/florent37/MaterialViewPager/archive/master.zip" class="btn btn-outline get-repo-btn
+" rel="nofollow" data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <div class="BtnGroup float-right">
+      
+  <!-- '"` --><!-- </textarea></xmp> --><form accept-charset="UTF-8" action="https://github.com/florent37/MaterialViewPager/new/master" class="BtnGroup-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="NajgEIDqonBY6PLCPqpEaLwYL//cbeuLurb/tJ3lqPodp5qGx1frYpyylWMHLXJDuDfOGbcp2ff2qkyFkyGJRw=="></div>
+    <button class="btn btn-sm BtnGroup-item" type="submit" data-disable-with="Creating file…">
+      Create new file
+    </button>
+</form>
+
+      
+  <a href="https://github.com/florent37/MaterialViewPager/upload/master" class="btn btn-sm BtnGroup-item">
+    Upload files
+  </a>
+
+
+    <a href="https://github.com/florent37/MaterialViewPager/find/master" class="btn btn-sm empty-icon float-right BtnGroup-item" data-pjax="" data-hotkey="t" data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w" type="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax="">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="https://github.com/florent37/MaterialViewPager#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="https://github.com/florent37/MaterialViewPager#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open " href="https://github.com/florent37/MaterialViewPager/tree/dev.rotation" data-name="dev.rotation" data-skip-pjax="true" rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                dev.rotation
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open " href="https://github.com/florent37/MaterialViewPager/tree/dev" data-name="dev" data-skip-pjax="true" rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                dev
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open " href="https://github.com/florent37/MaterialViewPager/tree/develop" data-name="develop" data-skip-pjax="true" rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                develop
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open selected" href="https://github.com/florent37/MaterialViewPager/tree/master" data-name="master" data-skip-pjax="true" rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open " href="https://github.com/florent37/MaterialViewPager/tree/nineold" data-name="nineold" data-skip-pjax="true" rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                nineold
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open " href="https://github.com/florent37/MaterialViewPager/tree/1.2.0" data-name="1.2.0" data-skip-pjax="true" rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target" title="1.2.0">
+                1.2.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open " href="https://github.com/florent37/MaterialViewPager/tree/1.1.3" data-name="1.1.3" data-skip-pjax="true" rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target" title="1.1.3">
+                1.1.3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open " href="https://github.com/florent37/MaterialViewPager/tree/1.1.2" data-name="1.1.2" data-skip-pjax="true" rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target" title="1.1.2">
+                1.1.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open " href="https://github.com/florent37/MaterialViewPager/tree/1.1.0" data-name="1.1.0" data-skip-pjax="true" rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target" title="1.1.0">
+                1.1.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open " href="https://github.com/florent37/MaterialViewPager/tree/1.0.7" data-name="1.0.7" data-skip-pjax="true" rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target" title="1.0.7">
+                1.0.7
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open " href="https://github.com/florent37/MaterialViewPager/tree/1.0.6" data-name="1.0.6" data-skip-pjax="true" rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target" title="1.0.6">
+                1.0.6
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open " href="https://github.com/florent37/MaterialViewPager/tree/1.0.5" data-name="1.0.5" data-skip-pjax="true" rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target" title="1.0.5">
+                1.0.5
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open " href="https://github.com/florent37/MaterialViewPager/tree/1.0.4" data-name="1.0.4" data-skip-pjax="true" rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target" title="1.0.4">
+                1.0.4
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open " href="https://github.com/florent37/MaterialViewPager/tree/1.0.3" data-name="1.0.3" data-skip-pjax="true" rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target" title="1.0.3">
+                1.0.3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open " href="https://github.com/florent37/MaterialViewPager/tree/1.0.2" data-name="1.0.2" data-skip-pjax="true" rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target" title="1.0.2">
+                1.0.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open " href="https://github.com/florent37/MaterialViewPager/tree/1.0.0" data-name="1.0.0" data-skip-pjax="true" rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target" title="1.0.0">
+                1.0.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open " href="https://github.com/florent37/MaterialViewPager/tree/0.0.3" data-name="0.0.3" data-skip-pjax="true" rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target" title="0.0.3">
+                0.0.3
+              </span>
+            </a>
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+      <a href="https://github.com/florent37/MaterialViewPager/pull/new/master" class="btn btn-sm new-pull-request-btn" data-pjax="" data-ga-click="Repository, new pull request, location:repo overview">
+        New pull request
+      </a>
+
+  <div class="breadcrumb">
+    
+  </div>
+</div>
+
+
+
+
+
+  <div class="commit-tease js-details-container Details">
+    <span class="float-right">
+      Latest commit
+      <a class="commit-tease-sha" href="https://github.com/florent37/MaterialViewPager/commit/8966f0527b4bfabb590ae0fb53380323f31c7377" data-pjax="">
+        8966f05
+      </a>
+      <span itemprop="dateModified"><relative-time datetime="2017-04-18T07:27:52Z" title="Apr 18, 2017, 2:27 PM GMT+7">21 days ago</relative-time></span>
+    </span>
+
+
+    <span class="commit-author-section">
+      <img alt="@florent37" class="avatar" height="20" src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/5754972" width="20">
+      <a href="https://github.com/florent37" class="user-mention" rel="author">florent37</a>
+        committed on <strong>GitHub</strong>
+    </span>
+
+        <a href="https://github.com/florent37/MaterialViewPager/commit/8966f0527b4bfabb590ae0fb53380323f31c7377" class="message" data-pjax="true" title="Merge pull request #312 from bryant1410/master
+
+Fix broken headings in Markdown files">Merge pull request</a> <a href="https://github.com/florent37/MaterialViewPager/pull/312" class="issue-link js-issue-link" data-id="222310002" data-error-text="Failed to load issue title" data-permission-text="Issue title is private" title="Fix broken headings in Markdown files">#312</a> <a href="https://github.com/florent37/MaterialViewPager/commit/8966f0527b4bfabb590ae0fb53380323f31c7377" class="message" data-pjax="true" title="Merge pull request #312 from bryant1410/master
+
+Fix broken headings in Markdown files">from bryant1410/master</a>
+          <span class="hidden-text-expander inline">
+            <button type="button" class="ellipsis-expander js-details-target">…</button>
+          </span>
+    
+
+      <div class="commit-desc"><pre class="text-small">Fix broken headings in Markdown files</pre></div>
+  </div>
+
+
+
+<div class="file-wrap">
+
+  <a href="https://github.com/florent37/MaterialViewPager/tree/8966f0527b4bfabb590ae0fb53380323f31c7377" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax="">
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"></path></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/florent37/MaterialViewPager/tree/master/.idea" class="js-navigation-open" id="95b55b1e3a304f4e340394a679893575-89b0da9a3f63bac3dcb2129fcfc580662787b91d" title=".idea">.idea</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/florent37/MaterialViewPager/commit/9b4d954087b16e5c9b61cdf42a9f1c1a80182e5d" class="message" data-pjax="true" title="Some changes">Some changes</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-02-28T08:41:00Z" title="Feb 28, 2017, 3:41 PM GMT+7">2 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/florent37/MaterialViewPager/tree/master/gradle" class="js-navigation-open" id="8ed1a771bc236c287ad93c699bfdd2d7-6d7b33a39c0fdf05ad4d6b81e608136f9d7e87f9" title="gradle">gradle</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/florent37/MaterialViewPager/commit/2f43f953364485c7a70dbd844758109e39ac7dd4" class="message" data-pjax="true" title="Removed javadoc">Removed javadoc</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-02-28T08:56:06Z" title="Feb 28, 2017, 3:56 PM GMT+7">2 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/florent37/MaterialViewPager/tree/master/materialviewpager" class="js-navigation-open" id="b875df75f201c9833fa2625339cfacfa-df6d830fe343bf5e6efbec6ca01e6cba8e0a391d" title="materialviewpager">materialviewpager</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/florent37/MaterialViewPager/commit/71d644fbbde8be44a158fa9665de9a86c3513dd4" class="message" data-pjax="true" title="Check if yOffset is negative.">Check if yOffset is negative.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-01T07:09:37Z" title="Mar 1, 2017, 2:09 PM GMT+7">2 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/florent37/MaterialViewPager/tree/master/sample" class="js-navigation-open" id="5e8ff9bf55ba3508199d22e984129be6-f6fd126f904ce89ced9ec853687f3c4f5b0a0f76" title="sample">sample</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/florent37/MaterialViewPager/commit/9b4d954087b16e5c9b61cdf42a9f1c1a80182e5d" class="message" data-pjax="true" title="Some changes">Some changes</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-02-28T08:41:00Z" title="Feb 28, 2017, 3:41 PM GMT+7">2 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-directory" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/florent37/MaterialViewPager/tree/master/screenshots" class="js-navigation-open" id="4b3cdc4cb815dfa317ae58526612f4b8-a02e58a5ecd9272526bef96ff6bf9ef84d2f0967" title="screenshots">screenshots</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/florent37/MaterialViewPager/commit/5535ea6280352fbc539f8ef769dfa3ec04d8f52a" class="message" data-pjax="true" title="updated README">updated README</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-05-01T16:37:05Z" title="May 1, 2015, 11:37 PM GMT+7">2 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/florent37/MaterialViewPager/blob/master/.gitignore" class="js-navigation-open" id="a084b794bc0759e7a6b77810e01874f2-89676dd8546bf96d48509ec6a19145123b57a3bb" title=".gitignore">.gitignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/florent37/MaterialViewPager/commit/69f2126c9f08aa045aea2dd414d5b6e851d7bca3" class="message" data-pjax="true" title="1.2.0 added header decorator,
+removed some nineold usages">1.2.0 added header decorator,</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-05-27T12:02:39Z" title="May 27, 2016, 7:02 PM GMT+7">a year ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/florent37/MaterialViewPager/blob/master/LICENSE" class="js-navigation-open" id="9879d6db96fd29134fc802214163b95a-8f71f43fee3f78649d238238cbde51e6d7055c82" itemprop="license" title="LICENSE">LICENSE</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/florent37/MaterialViewPager/commit/c78ef161b8415641987b2df39f8df3eeac76d417" class="message" data-pjax="true" title="Initial commit">Initial commit</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-04-24T17:53:15Z" title="Apr 25, 2015, 12:53 AM GMT+7">2 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/florent37/MaterialViewPager/blob/master/MaterialViewPager.iml" class="js-navigation-open" id="c1409ecde69932992e8463c1b307229a-fd2f0e9c9fa2004ca0eabc75d67fbdc90f48f89c" title="MaterialViewPager.iml">MaterialViewPager.iml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/florent37/MaterialViewPager/commit/9b4d954087b16e5c9b61cdf42a9f1c1a80182e5d" class="message" data-pjax="true" title="Some changes">Some changes</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-02-28T08:41:00Z" title="Feb 28, 2017, 3:41 PM GMT+7">2 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/florent37/MaterialViewPager/blob/master/README.md" class="js-navigation-open" id="04c6e90faac2675aa89e2176d2eec7d8-eb8a4fc15c8475eca0a183860196183a4aa369b0" title="README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/florent37/MaterialViewPager/commit/0d4973f04b3cf62003d49e2d8491b3203cd13b5e" class="message" data-pjax="true" title="Fix broken Markdown headings">Fix broken Markdown headings</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-04-18T05:55:04Z" title="Apr 18, 2017, 12:55 PM GMT+7">21 days ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/florent37/MaterialViewPager/blob/master/build.gradle" class="js-navigation-open" id="c197962302397baf3a4cc36463dce5ea-138d3e07e66294ff7b4c7c14aa44f37200dd29be" title="build.gradle">build.gradle</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/florent37/MaterialViewPager/commit/9b4d954087b16e5c9b61cdf42a9f1c1a80182e5d" class="message" data-pjax="true" title="Some changes">Some changes</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-02-28T08:41:00Z" title="Feb 28, 2017, 3:41 PM GMT+7">2 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item navigation-focus">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/florent37/MaterialViewPager/blob/master/circle.yml" class="js-navigation-open" id="29944324a3cbf9f4bd0162dfe3975d88-c81cf0fc44039d125fe4ef00be951acbda81031d" title="circle.yml">circle.yml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/florent37/MaterialViewPager/commit/9b4d954087b16e5c9b61cdf42a9f1c1a80182e5d" class="message" data-pjax="true" title="Some changes">Some changes</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-02-28T08:41:00Z" title="Feb 28, 2017, 3:41 PM GMT+7">2 months ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/florent37/MaterialViewPager/blob/master/gradle.properties" class="js-navigation-open" id="503f218d646c10f484fdc9d6315bf2e3-1d3591c8a4c9c29578c36c87f80c05a6aea3ee3f" title="gradle.properties">gradle.properties</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/florent37/MaterialViewPager/commit/296018cf55d45fe8004007fc8a30da0c2ab62531" class="message" data-pjax="true" title="initial import">initial import</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-04-24T17:55:52Z" title="Apr 25, 2015, 12:55 AM GMT+7">2 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/florent37/MaterialViewPager/blob/master/gradlew" class="js-navigation-open" id="36ffbd2ea7085cf19547193a7faf30c8-91a7e269e19dfc62e27137a0b57ef3e430cee4fd" title="gradlew">gradlew</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/florent37/MaterialViewPager/commit/296018cf55d45fe8004007fc8a30da0c2ab62531" class="message" data-pjax="true" title="initial import">initial import</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-04-24T17:55:52Z" title="Apr 25, 2015, 12:55 AM GMT+7">2 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/florent37/MaterialViewPager/blob/master/gradlew.bat" class="js-navigation-open" id="c9b677a57d25a366595a35b2230d0502-8a0b282aa6885fb573c106b3551f7275c5f17e8e" title="gradlew.bat">gradlew.bat</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/florent37/MaterialViewPager/commit/296018cf55d45fe8004007fc8a30da0c2ab62531" class="message" data-pjax="true" title="initial import">initial import</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-04-24T17:55:52Z" title="Apr 25, 2015, 12:55 AM GMT+7">2 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg aria-hidden="true" class="octicon octicon-file-text" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img alt="" class="spinner" height="16" src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/octocat-spinner-32.gif" width="16">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="https://github.com/florent37/MaterialViewPager/blob/master/settings.gradle" class="js-navigation-open" id="88b7c47e47b8ee65263b6784b86fa0a7-40aaf9fbffc81e42a624ce36eaa6f4d15d39724c" title="settings.gradle">settings.gradle</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a href="https://github.com/florent37/MaterialViewPager/commit/9b4d954087b16e5c9b61cdf42a9f1c1a80182e5d" class="message" data-pjax="true" title="Some changes">Some changes</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-02-28T08:41:00Z" title="Feb 28, 2017, 3:41 PM GMT+7">2 months ago</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+  <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+    <h3>
+      <svg aria-hidden="true" class="octicon octicon-book" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"></path></svg>
+      README.md
+    </h3>
+
+      <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-materialviewpager" class="anchor" href="https://github.com/florent37/MaterialViewPager#materialviewpager" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>MaterialViewPager</h1>
+<p><a href="http://android-arsenal.com/details/1/1731"><img src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f416e64726f6964253230417273656e616c2d4d6174657269" alt="Android Arsenal" data-canonical-src="https://img.shields.io/badge/Android%20Arsenal-MaterialViewPager-brightgreen.svg?style=flat" style="max-width:100%;"></a>
+<a href="http://androidweekly.net/issues/issue-151"><img src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f616e64726f69642d2d7765656b6c792d3135312d626c7565" alt="Android Weekly" data-canonical-src="https://img.shields.io/badge/android--weekly-151-blue.svg" style="max-width:100%;"></a>
+<a href="https://circleci.com/gh/florent37/MaterialViewPager"><img src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/68747470733a2f2f636972636c6563692e636f6d2f67682f666c6f72656e7433372f4d6174657269616c5669657750616765722e73" alt="CircleCI" data-canonical-src="https://circleci.com/gh/florent37/MaterialViewPager.svg?style=svg" style="max-width:100%;"></a></p>
+<p>Material Design ViewPager easy to use library</p>
+<p><a href="http://youtu.be/g6tTDVceM9E"><img src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/screenshot_2_small.png" alt="Build screen" style="max-width:100%;"></a></p>
+<h1><a id="user-content-sample" class="anchor" href="https://github.com/florent37/MaterialViewPager#sample" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sample</h1>
+<a href="https://play.google.com/store/apps/details?id=com.github.florent37.materialviewpager.sample">
+  <img alt="Android app on Google Play" src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/68747470733a2f2f646576656c6f7065722e616e64726f69642e636f6d2f696d616765732f6272616e642f656e5f6170705f726762" data-canonical-src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" style="max-width:100%;">
+</a>
+<p>You can find a sample APK : <a href="https://github.com/florent37/MaterialViewPager/releases/download/1.1.0/sample-release.apk">Link</a></p>
+<p>And have a look on a sample Youtube Video : <a href="http://www.youtube.com/watch?v=r95Tt6AS18c">Youtube Link</a></p>
+<h1><a id="user-content-download" class="anchor" href="https://github.com/florent37/MaterialViewPager#download" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Download</h1>
+<p>In your module <a href="https://bintray.com/florent37/maven/MaterialViewPager/_latestVersion"><img src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/68747470733a2f2f6170692e62696e747261792e636f6d2f7061636b616765732f666c6f72656e7433372f6d6176656e2f4d617465" alt="Download" data-canonical-src="https://api.bintray.com/packages/florent37/maven/MaterialViewPager/images/download.svg" style="max-width:100%;"></a></p>
+<div class="highlight highlight-source-groovy"><pre>compile <span class="pl-s"><span class="pl-pds">'</span>com.github.florent37:materialviewpager:1.2.1<span class="pl-pds">'</span></span>
+
+<span class="pl-c"><span class="pl-c">//</span>dependencies</span>
+compile <span class="pl-s"><span class="pl-pds">'</span>com.flaviofaria:kenburnsview:1.0.7<span class="pl-pds">'</span></span>
+compile <span class="pl-s"><span class="pl-pds">'</span>com.jpardogo.materialtabstrip:library:1.1.0<span class="pl-pds">'</span></span>
+compile <span class="pl-s"><span class="pl-pds">'</span>com.github.bumptech.glide:glide:3.7.0<span class="pl-pds">'</span></span></pre></div>
+<h1><a id="user-content-usage" class="anchor" href="https://github.com/florent37/MaterialViewPager#usage" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Usage</h1>
+<p>Add MaterialViewPager to your activity's layout</p>
+<div class="highlight highlight-text-xml"><pre>&lt;<span class="pl-ent">com</span>.github.florent37.materialviewpager.MaterialViewPager
+    <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>@+id/materialViewPager<span class="pl-pds">"</span></span>
+    <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">layout_width</span>=<span class="pl-s"><span class="pl-pds">"</span>match_parent<span class="pl-pds">"</span></span>
+    <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">layout_height</span>=<span class="pl-s"><span class="pl-pds">"</span>match_parent<span class="pl-pds">"</span></span>
+    <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">viewpager_logo</span>=<span class="pl-s"><span class="pl-pds">"</span>@layout/header_logo<span class="pl-pds">"</span></span>
+    <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">viewpager_logoMarginTop</span>=<span class="pl-s"><span class="pl-pds">"</span>100dp<span class="pl-pds">"</span></span>
+    <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">viewpager_color</span>=<span class="pl-s"><span class="pl-pds">"</span>@color/colorPrimary<span class="pl-pds">"</span></span>
+    <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">viewpager_headerHeight</span>=<span class="pl-s"><span class="pl-pds">"</span>200dp<span class="pl-pds">"</span></span>
+    <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">viewpager_headerAlpha</span>=<span class="pl-s"><span class="pl-pds">"</span>1.0<span class="pl-pds">"</span></span>
+    <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">viewpager_hideLogoWithFade</span>=<span class="pl-s"><span class="pl-pds">"</span>false<span class="pl-pds">"</span></span>
+    <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">viewpager_hideToolbarAndTitle</span>=<span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span>
+    <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">viewpager_enableToolbarElevation</span>=<span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span>
+    <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">viewpager_parallaxHeaderFactor</span>=<span class="pl-s"><span class="pl-pds">"</span>1.5<span class="pl-pds">"</span></span>
+    <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">viewpager_headerAdditionalHeight</span>=<span class="pl-s"><span class="pl-pds">"</span>20dp<span class="pl-pds">"</span></span>
+    <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">viewpager_displayToolbarWhenSwipe</span>=<span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span>
+    <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">viewpager_transparentToolbar</span>=<span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span>
+    <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">viewpager_animatedHeaderImage</span>=<span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span>
+    <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">viewpager_disableToolbar</span>=<span class="pl-s"><span class="pl-pds">"</span>false<span class="pl-pds">"</span></span>
+
+    /&gt;</pre></div>
+<p>with <strong>header_logo.xml</strong></p>
+<div class="highlight highlight-text-xml"><pre>&lt;?<span class="pl-ent">xml</span><span class="pl-e"> version</span>=<span class="pl-s"><span class="pl-pds">"</span>1.0<span class="pl-pds">"</span></span><span class="pl-e"> encoding</span>=<span class="pl-s"><span class="pl-pds">"</span>utf-8<span class="pl-pds">"</span></span>?&gt;
+&lt;<span class="pl-ent">TextView</span> <span class="pl-e">xmlns</span><span class="pl-e">:</span><span class="pl-e">android</span>=<span class="pl-s"><span class="pl-pds">"</span>http://schemas.android.com/apk/res/android<span class="pl-pds">"</span></span>
+    <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>@+id/logo_white<span class="pl-pds">"</span></span>
+    <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">layout_width</span>=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+    <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">layout_height</span>=<span class="pl-s"><span class="pl-pds">"</span>@dimen/materialviewpager_logoHeight<span class="pl-pds">"</span></span>
+    <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">text</span>=<span class="pl-s"><span class="pl-pds">"</span>Material is Good<span class="pl-pds">"</span></span>
+    <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">textSize</span>=<span class="pl-s"><span class="pl-pds">"</span>30sp<span class="pl-pds">"</span></span>
+    <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">textColor</span>=<span class="pl-s"><span class="pl-pds">"</span>@android:color/white<span class="pl-pds">"</span></span>/&gt;</pre></div>
+<p>You will see on Android Studio Preview :</p>
+<p><a href="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/68747470733a2f2f7261772e6769746875622e636f6d2f666c6f72656e7433372f4d6174657269616c5669657750616765722f6d61" target="_blank"><img src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/68747470733a2f2f7261772e6769746875622e636f6d2f666c6f72656e7433372f4d6174657269616c5669657750616765722f6d61" alt="alt preview" data-canonical-src="https://raw.github.com/florent37/MaterialViewPager/master/screenshots/preview_small.png" style="max-width:100%;"></a></p>
+<p>To get a beautiful screen and enable preview, you theme may follow</p>
+<div class="highlight highlight-text-xml"><pre>&lt;<span class="pl-ent">style</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>AppBaseTheme<span class="pl-pds">"</span></span> <span class="pl-e">parent</span>=<span class="pl-s"><span class="pl-pds">"</span>@style/Theme.AppCompat.Light<span class="pl-pds">"</span></span>&gt;
+&lt;/<span class="pl-ent">style</span>&gt;
+
+&lt;<span class="pl-ent">style</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>AppTheme<span class="pl-pds">"</span></span> <span class="pl-e">parent</span>=<span class="pl-s"><span class="pl-pds">"</span>AppBaseTheme<span class="pl-pds">"</span></span>&gt;
+
+   &lt;<span class="pl-ent">item</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>android:textColorPrimary<span class="pl-pds">"</span></span>&gt;@android:color/white&lt;/<span class="pl-ent">item</span>&gt;
+   &lt;<span class="pl-ent">item</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>drawerArrowStyle<span class="pl-pds">"</span></span>&gt;@style/DrawerArrowStyle&lt;/<span class="pl-ent">item</span>&gt;
+   &lt;<span class="pl-ent">item</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>android:windowTranslucentStatus<span class="pl-pds">"</span></span> <span class="pl-e">tools</span><span class="pl-e">:</span><span class="pl-e">targetApi</span>=<span class="pl-s"><span class="pl-pds">"</span>21<span class="pl-pds">"</span></span>&gt;true&lt;/<span class="pl-ent">item</span>&gt;
+
+   &lt;<span class="pl-ent">item</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>android:windowContentOverlay<span class="pl-pds">"</span></span>&gt;@null&lt;/<span class="pl-ent">item</span>&gt;
+   &lt;<span class="pl-ent">item</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>windowActionBar<span class="pl-pds">"</span></span>&gt;false&lt;/<span class="pl-ent">item</span>&gt;
+   &lt;<span class="pl-ent">item</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>windowNoTitle<span class="pl-pds">"</span></span>&gt;true&lt;/<span class="pl-ent">item</span>&gt;
+
+   <span class="pl-c"><span class="pl-c">&lt;!--</span> Toolbar Theme / Apply white arrow <span class="pl-c">--&gt;</span></span>
+   &lt;<span class="pl-ent">item</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>colorControlNormal<span class="pl-pds">"</span></span>&gt;@android:color/white&lt;/<span class="pl-ent">item</span>&gt;
+   &lt;<span class="pl-ent">item</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>actionBarTheme<span class="pl-pds">"</span></span>&gt;@style/AppTheme.ActionBarTheme&lt;/<span class="pl-ent">item</span>&gt;
+
+   <span class="pl-c"><span class="pl-c">&lt;!--</span> Material Theme <span class="pl-c">--&gt;</span></span>
+   &lt;<span class="pl-ent">item</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>colorPrimary<span class="pl-pds">"</span></span>&gt;@color/colorPrimary&lt;/<span class="pl-ent">item</span>&gt;
+   &lt;<span class="pl-ent">item</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>colorPrimaryDark<span class="pl-pds">"</span></span>&gt;@color/colorPrimaryDark&lt;/<span class="pl-ent">item</span>&gt;
+   &lt;<span class="pl-ent">item</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>colorAccent<span class="pl-pds">"</span></span>&gt;@color/accent_color&lt;/<span class="pl-ent">item</span>&gt;
+
+   &lt;<span class="pl-ent">item</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>android:navigationBarColor<span class="pl-pds">"</span></span> <span class="pl-e">tools</span><span class="pl-e">:</span><span class="pl-e">targetApi</span>=<span class="pl-s"><span class="pl-pds">"</span>21<span class="pl-pds">"</span></span>&gt;@color/navigationBarColor&lt;/<span class="pl-ent">item</span>&gt;
+   &lt;<span class="pl-ent">item</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>android:windowDrawsSystemBarBackgrounds<span class="pl-pds">"</span></span> <span class="pl-e">tools</span><span class="pl-e">:</span><span class="pl-e">targetApi</span>=<span class="pl-s"><span class="pl-pds">"</span>21<span class="pl-pds">"</span></span>&gt;true&lt;/<span class="pl-ent">item</span>&gt;
+
+&lt;/<span class="pl-ent">style</span>&gt;
+
+&lt;<span class="pl-ent">style</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>AppTheme.ActionBarTheme<span class="pl-pds">"</span></span> <span class="pl-e">parent</span>=<span class="pl-s"><span class="pl-pds">"</span>@style/ThemeOverlay.AppCompat.ActionBar<span class="pl-pds">"</span></span>&gt;
+    <span class="pl-c"><span class="pl-c">&lt;!--</span> White arrow <span class="pl-c">--&gt;</span></span>
+    &lt;<span class="pl-ent">item</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>colorControlNormal<span class="pl-pds">"</span></span>&gt;@android:color/white&lt;/<span class="pl-ent">item</span>&gt;
+&lt;/<span class="pl-ent">style</span>&gt;
+
+&lt;<span class="pl-ent">style</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>DrawerArrowStyle<span class="pl-pds">"</span></span> <span class="pl-e">parent</span>=<span class="pl-s"><span class="pl-pds">"</span>Widget.AppCompat.DrawerArrowToggle<span class="pl-pds">"</span></span>&gt;
+    &lt;<span class="pl-ent">item</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>spinBars<span class="pl-pds">"</span></span>&gt;true&lt;/<span class="pl-ent">item</span>&gt;
+    &lt;<span class="pl-ent">item</span> <span class="pl-e">name</span>=<span class="pl-s"><span class="pl-pds">"</span>color<span class="pl-pds">"</span></span>&gt;@color/drawerArrowColor&lt;/<span class="pl-ent">item</span>&gt;
+&lt;/<span class="pl-ent">style</span>&gt;</pre></div>
+<h1><a id="user-content-retrieve-the-materialviewpager" class="anchor" href="https://github.com/florent37/MaterialViewPager#retrieve-the-materialviewpager" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Retrieve the MaterialViewPager</h1>
+<p>You can use MaterialViewPager as an usual Android View, and get it by findViewById</p>
+<div class="highlight highlight-source-java"><pre><span class="pl-k">public</span> <span class="pl-k">class</span> <span class="pl-en">MainActivity</span> <span class="pl-k">extends</span> <span class="pl-e">ActionBarActivity</span> {
+
+    <span class="pl-k">private</span> <span class="pl-smi">MaterialViewPager</span> mViewPager;
+
+    <span class="pl-k">@Override</span>
+    <span class="pl-k">protected</span> <span class="pl-k">void</span> <span class="pl-en">onCreate</span>(<span class="pl-smi">Bundle</span> <span class="pl-v">savedInstanceState</span>) {
+        <span class="pl-c1">super</span><span class="pl-k">.</span>onCreate(savedInstanceState);
+        setContentView(<span class="pl-smi">R</span><span class="pl-k">.</span>layout<span class="pl-k">.</span>activity_main);
+
+        mViewPager <span class="pl-k">=</span> (<span class="pl-smi">MaterialViewPager</span>) findViewById(<span class="pl-smi">R</span><span class="pl-k">.</span>id<span class="pl-k">.</span>materialViewPager);
+    }
+}</pre></div>
+<h1><a id="user-content-customisation" class="anchor" href="https://github.com/florent37/MaterialViewPager#customisation" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Customisation</h1>
+<p>First choose your color and height</p>
+<div class="highlight highlight-text-xml"><pre>&lt;<span class="pl-ent">com</span>.github.florent37.materialviewpager.MaterialViewPager
+        <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>@+id/materialViewPager<span class="pl-pds">"</span></span>
+        <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">layout_width</span>=<span class="pl-s"><span class="pl-pds">"</span>match_parent<span class="pl-pds">"</span></span>
+        <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">layout_height</span>=<span class="pl-s"><span class="pl-pds">"</span>match_parent<span class="pl-pds">"</span></span>
+        ...
+        <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">viewpager_color</span>=<span class="pl-s"><span class="pl-pds">"</span>@color/colorPrimary<span class="pl-pds">"</span></span>
+        <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">viewpager_headerHeight</span>=<span class="pl-s"><span class="pl-pds">"</span>200dp<span class="pl-pds">"</span></span>
+        ...
+        /&gt;</pre></div>
+<h2><a id="user-content-set-your-logo" class="anchor" href="https://github.com/florent37/MaterialViewPager#set-your-logo" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Set your logo</h2>
+<div class="highlight highlight-text-xml"><pre>&lt;<span class="pl-ent">com</span>.github.florent37.materialviewpager.MaterialViewPager
+        ...
+        <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">viewpager_logo</span>=<span class="pl-s"><span class="pl-pds">"</span>@layout/header_logo<span class="pl-pds">"</span></span> &lt;-- look custom logo layout
+        <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">viewpager_logoMarginTop</span>=<span class="pl-s"><span class="pl-pds">"</span>100dp<span class="pl-pds">"</span></span> &lt;-- look at the preview
+        ...
+        /&gt;</pre></div>
+<h3><a id="user-content-titlebar-logo" class="anchor" href="https://github.com/florent37/MaterialViewPager#titlebar-logo" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Titlebar Logo</h3>
+<p><a href="http://youtu.be/82gvoUqXb_I"><img src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/687474703a2f2f73686172652e676966796f75747562652e636f6d2f796762716e412e676966" alt="Video" data-canonical-src="http://share.gifyoutube.com/ygbqnA.gif" style="max-width:100%;"></a></p>
+<p>Your logo's layout must</p>
+<ul>
+<li>layout_height="@dimen/materialviewpager_logoHeight"</li>
+</ul>
+<p><strong>header_logo.xml</strong></p>
+<div class="highlight highlight-text-xml"><pre>&lt;<span class="pl-ent">ImageView</span> <span class="pl-e">xmlns</span><span class="pl-e">:</span><span class="pl-e">android</span>=<span class="pl-s"><span class="pl-pds">"</span>http://schemas.android.com/apk/res/android<span class="pl-pds">"</span></span>
+    <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>@+id/logo_white<span class="pl-pds">"</span></span>
+    <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">layout_width</span>=<span class="pl-s"><span class="pl-pds">"</span>200dp<span class="pl-pds">"</span></span>
+    <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">layout_height</span>=<span class="pl-s"><span class="pl-pds">"</span>@dimen/materialviewpager_logoHeight<span class="pl-pds">"</span></span>
+    <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">fitsSystemWindows</span>=<span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span>
+    <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">adjustViewBounds</span>=<span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span>
+    <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">layout_centerHorizontal</span>=<span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span>
+    <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>@drawable/logo_white<span class="pl-pds">"</span></span> /&gt;</pre></div>
+<div class="highlight highlight-text-xml"><pre>&lt;<span class="pl-ent">com</span>.github.florent37.materialviewpager.MaterialViewPager`
+        ...
+        <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">viewpager_hideLogoWithFade</span>=<span class="pl-s"><span class="pl-pds">"</span>false<span class="pl-pds">"</span></span>
+        ...
+        /&gt;
+</pre></div>
+<h3><a id="user-content-fading-logo" class="anchor" href="https://github.com/florent37/MaterialViewPager#fading-logo" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Fading Logo</h3>
+<p><a href="http://youtu.be/9laniARQdqg"><img src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/687474703a2f2f73686172652e676966796f75747562652e636f6d2f4b59623044342e676966" alt="Video" data-canonical-src="http://share.gifyoutube.com/KYb0D4.gif" style="max-width:100%;"></a></p>
+<p><strong>header_logo.xml</strong></p>
+<div class="highlight highlight-text-xml"><pre>&lt;<span class="pl-ent">FrameLayout</span> <span class="pl-e">xmlns</span><span class="pl-e">:</span><span class="pl-e">android</span>=<span class="pl-s"><span class="pl-pds">"</span>http://schemas.android.com/apk/res/android<span class="pl-pds">"</span></span>
+    <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">layout_width</span>=<span class="pl-s"><span class="pl-pds">"</span>80dp<span class="pl-pds">"</span></span>
+    <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">layout_height</span>=<span class="pl-s"><span class="pl-pds">"</span>80dp<span class="pl-pds">"</span></span>
+    <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">layout_centerHorizontal</span>=<span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span>
+    <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">background</span>=<span class="pl-s"><span class="pl-pds">"</span>@drawable/circle<span class="pl-pds">"</span></span>&gt;
+
+    &lt;<span class="pl-ent">ImageView</span>
+        <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">layout_width</span>=<span class="pl-s"><span class="pl-pds">"</span>30dp<span class="pl-pds">"</span></span>
+        <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">layout_height</span>=<span class="pl-s"><span class="pl-pds">"</span>30dp<span class="pl-pds">"</span></span>
+        <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">fitsSystemWindows</span>=<span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span>
+        <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">adjustViewBounds</span>=<span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span>
+        <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">layout_gravity</span>=<span class="pl-s"><span class="pl-pds">"</span>center<span class="pl-pds">"</span></span>
+        <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>@drawable/flying<span class="pl-pds">"</span></span> /&gt;
+&lt;/<span class="pl-ent">FrameLayout</span>&gt;</pre></div>
+<div class="highlight highlight-text-xml"><pre>&lt;<span class="pl-ent">com</span>.github.florent37.materialviewpager.MaterialViewPager`
+        ...
+        <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">viewpager_hideLogoWithFade</span>=<span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span>
+        ...
+        /&gt;</pre></div>
+<h2><a id="user-content-toolbar-animation" class="anchor" href="https://github.com/florent37/MaterialViewPager#toolbar-animation" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Toolbar Animation</h2>
+<h2><a id="user-content-hide-logo-and-toolbar" class="anchor" href="https://github.com/florent37/MaterialViewPager#hide-logo-and-toolbar" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Hide Logo and Toolbar</h2>
+<p><a href="http://youtu.be/3ElFoqVKxag"><img src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/687474703a2f2f73686172652e676966796f75747562652e636f6d2f793556384a582e676966" alt="Video" data-canonical-src="http://share.gifyoutube.com/y5V8JX.gif" style="max-width:100%;"></a></p>
+<div class="highlight highlight-text-xml"><pre>&lt;<span class="pl-ent">com</span>.github.florent37.materialviewpager.MaterialViewPager`
+        ...
+        <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">viewpager_hideToolbarAndTitle</span>=<span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span>
+        ...
+        /&gt;</pre></div>
+<h3><a id="user-content-sticky-toolbar" class="anchor" href="https://github.com/florent37/MaterialViewPager#sticky-toolbar" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sticky Toolbar</h3>
+<p><a href="http://youtu.be/3ElFoqVKxag"><img src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/687474703a2f2f73686172652e676966796f75747562652e636f6d2f796f326f4a6e2e676966" alt="Video" data-canonical-src="http://share.gifyoutube.com/yo2oJn.gif" style="max-width:100%;"></a></p>
+<div class="highlight highlight-text-xml"><pre>&lt;<span class="pl-ent">com</span>.github.florent37.materialviewpager.MaterialViewPager`
+        ...
+        <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">viewpager_hideToolbarAndTitle</span>=<span class="pl-s"><span class="pl-pds">"</span>false<span class="pl-pds">"</span></span>
+        ...
+        /&gt;</pre></div>
+<h3><a id="user-content-transparent-toolbar" class="anchor" href="https://github.com/florent37/MaterialViewPager#transparent-toolbar" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Transparent Toolbar</h3>
+<p><a href="https://youtu.be/jUVO2cozQHQ"><img src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/687474703a2f2f73686172652e676966796f75747562652e636f6d2f79776250386b2e676966" alt="Video" data-canonical-src="http://share.gifyoutube.com/ywbP8k.gif" style="max-width:100%;"></a></p>
+<div class="highlight highlight-text-xml"><pre>&lt;<span class="pl-ent">com</span>.github.florent37.materialviewpager.MaterialViewPager`
+        ...
+        <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">viewpager_transparentToolbar</span>=<span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span>
+        ...
+        /&gt;</pre></div>
+<h2><a id="user-content-header-layout" class="anchor" href="https://github.com/florent37/MaterialViewPager#header-layout" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Header Layout</h2>
+<p>You can replace the header</p>
+<div class="highlight highlight-text-xml"><pre>&lt;<span class="pl-ent">com</span>.github.florent37.materialviewpager.MaterialViewPager`
+        ...
+        <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">viewpager_header</span>=<span class="pl-s"><span class="pl-pds">"</span>@layout/myHeader<span class="pl-pds">"</span></span>
+        ...
+        /&gt;</pre></div>
+<h3><a id="user-content-moving-header" class="anchor" href="https://github.com/florent37/MaterialViewPager#moving-header" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Moving Header</h3>
+<p>Or use the default header, with a KenBurns animation</p>
+<div class="highlight highlight-text-xml"><pre>&lt;<span class="pl-ent">com</span>.github.florent37.materialviewpager.MaterialViewPager`
+        ...
+        <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">viewpager_animatedHeaderImage</span>=<span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span>
+        ...
+        /&gt;</pre></div>
+<h3><a id="user-content-static-header" class="anchor" href="https://github.com/florent37/MaterialViewPager#static-header" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Static Header</h3>
+<p>Or simply use an ImageView as header</p>
+<div class="highlight highlight-text-xml"><pre>&lt;<span class="pl-ent">com</span>.github.florent37.materialviewpager.MaterialViewPager`
+        ...
+        <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">viewpager_animatedHeaderImage</span>=<span class="pl-s"><span class="pl-pds">"</span>false<span class="pl-pds">"</span></span>
+        ...
+        /&gt;</pre></div>
+<h2><a id="user-content-custom-tab-bar" class="anchor" href="https://github.com/florent37/MaterialViewPager#custom-tab-bar" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Custom Tab Bar</h2>
+<p>You can set you own tab bar, by default I provided 2 implementations</p>
+<h3><a id="user-content-standard" class="anchor" href="https://github.com/florent37/MaterialViewPager#standard" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Standard</h3>
+<p><a href="http://youtu.be/VRinfxgewNE"><img src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/687474703a2f2f73686172652e676966796f75747562652e636f6d2f4b646e6f5a582e676966" alt="Video" data-canonical-src="http://share.gifyoutube.com/KdnoZX.gif" style="max-width:100%;"></a></p>
+<div class="highlight highlight-text-xml"><pre>&lt;<span class="pl-ent">com</span>.github.florent37.materialviewpager.MaterialViewPager`
+        ...
+        <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">viewpager_pagerTitleStrip</span>=<span class="pl-s"><span class="pl-pds">"</span>@layout/material_view_pager_pagertitlestrip_standard<span class="pl-pds">"</span></span>
+        ...
+        /&gt;</pre></div>
+<h3><a id="user-content-news-stand" class="anchor" href="https://github.com/florent37/MaterialViewPager#news-stand" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>News Stand</h3>
+<p><a href="http://youtu.be/MBzK2s7HU1A"><img src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/687474703a2f2f73686172652e676966796f75747562652e636f6d2f4b65626f4c702e676966" alt="Video" data-canonical-src="http://share.gifyoutube.com/KeboLp.gif" style="max-width:100%;"></a></p>
+<div class="highlight highlight-text-xml"><pre>&lt;<span class="pl-ent">com</span>.github.florent37.materialviewpager.MaterialViewPager`
+        ...
+        <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">viewpager_pagerTitleStrip</span>=<span class="pl-s"><span class="pl-pds">"</span>@layout/material_view_pager_pagertitlestrip_newstand<span class="pl-pds">"</span></span>
+        ...
+        /&gt;</pre></div>
+<h3><a id="user-content-or-create-your-own-tab-bar" class="anchor" href="https://github.com/florent37/MaterialViewPager#or-create-your-own-tab-bar" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Or create your own tab bar</h3>
+<p>Create your own layout using a PagerSlidingTabStrip</p>
+<p><strong>my_tabs.xml</strong></p>
+<div class="highlight highlight-text-xml"><pre>&lt;<span class="pl-ent">com</span>.astuetz.PagerSlidingTabStrip
+    <span class="pl-e">xmlns</span><span class="pl-e">:</span><span class="pl-e">android</span>=<span class="pl-s"><span class="pl-pds">"</span>http://schemas.android.com/apk/res/android<span class="pl-pds">"</span></span>
+    <span class="pl-e">xmlns</span><span class="pl-e">:</span><span class="pl-e">app</span>=<span class="pl-s"><span class="pl-pds">"</span>http://schemas.android.com/apk/res-auto<span class="pl-pds">"</span></span>
+    <span class="pl-e">xmlns</span><span class="pl-e">:</span><span class="pl-e">tools</span>=<span class="pl-s"><span class="pl-pds">"</span>http://schemas.android.com/tools<span class="pl-pds">"</span></span>
+    <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>@id/materialviewpager_pagerTitleStrip<span class="pl-pds">"</span></span>
+    <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">layout_width</span>=<span class="pl-s"><span class="pl-pds">"</span>match_parent<span class="pl-pds">"</span></span>
+    <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">layout_height</span>=<span class="pl-s"><span class="pl-pds">"</span>match_parent<span class="pl-pds">"</span></span>
+    <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">pstsPaddingMiddle</span>=<span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span>
+    <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">pstsDividerPadding</span>=<span class="pl-s"><span class="pl-pds">"</span>20dp<span class="pl-pds">"</span></span>
+    <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">pstsIndicatorColor</span>=<span class="pl-s"><span class="pl-pds">"</span>#FFF<span class="pl-pds">"</span></span>
+    <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">pstsIndicatorHeight</span>=<span class="pl-s"><span class="pl-pds">"</span>2dp<span class="pl-pds">"</span></span>
+    <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">pstsShouldExpand</span>=<span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span>
+    <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">pstsTabPaddingLeftRight</span>=<span class="pl-s"><span class="pl-pds">"</span>10dp<span class="pl-pds">"</span></span>
+    <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">pstsTabTextAllCaps</span>=<span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span>
+    <span class="pl-e">tools</span><span class="pl-e">:</span><span class="pl-e">background</span>=<span class="pl-s"><span class="pl-pds">"</span>#A333<span class="pl-pds">"</span></span>
+     /&gt;</pre></div>
+<p><strong>Don't forget to give it id="@id/materialviewpager_pagerTitleStrip"</strong></p>
+<div class="highlight highlight-text-xml"><pre>&lt;<span class="pl-ent">com</span>.github.florent37.materialviewpager.MaterialViewPager
+        ...
+        <span class="pl-e">app</span><span class="pl-e">:</span><span class="pl-e">viewpager_pagerTitleStrip</span>=<span class="pl-s"><span class="pl-pds">"</span>@layout/my_tabs<span class="pl-pds">"</span></span>
+        ...
+        /&gt;</pre></div>
+<h1><a id="user-content-animate-header" class="anchor" href="https://github.com/florent37/MaterialViewPager#animate-header" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Animate Header</h1>
+<p><a href="http://youtu.be/90gKwEL1j2I"><img src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/687474703a2f2f73686172652e676966796f75747562652e636f6d2f7941426b67572e676966" alt="Video" data-canonical-src="http://share.gifyoutube.com/yABkgW.gif" style="max-width:100%;"></a></p>
+<p>Simply add a listen to the ViewPager</p>
+<div class="highlight highlight-source-java"><pre>mViewPager<span class="pl-k">.</span>setMaterialViewPagerListener(<span class="pl-k">new</span> <span class="pl-smi">MaterialViewPager</span>.<span class="pl-smi">Listener</span>() {
+            <span class="pl-k">@Override</span>
+            <span class="pl-k">public</span> <span class="pl-smi">HeaderDesign</span> <span class="pl-en">getHeaderDesign</span>(<span class="pl-k">int</span> <span class="pl-v">page</span>) {
+                <span class="pl-k">switch</span> (page) {
+                    <span class="pl-k">case</span> <span class="pl-c1">0</span><span class="pl-k">:</span>
+                        <span class="pl-k">return</span> <span class="pl-smi">HeaderDesign</span><span class="pl-k">.</span>fromColorResAndUrl(
+                                <span class="pl-smi">R</span><span class="pl-k">.</span>color<span class="pl-k">.</span>blue,
+                                <span class="pl-s"><span class="pl-pds">"</span>http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2014/06/wallpaper_51.jpg<span class="pl-pds">"</span></span>);
+                    <span class="pl-k">case</span> <span class="pl-c1">1</span><span class="pl-k">:</span>
+                        <span class="pl-k">return</span> <span class="pl-smi">HeaderDesign</span><span class="pl-k">.</span>fromColorResAndUrl(
+                                <span class="pl-smi">R</span><span class="pl-k">.</span>color<span class="pl-k">.</span>green,
+                                <span class="pl-s"><span class="pl-pds">"</span>https://fs01.androidpit.info/a/63/0e/android-l-wallpapers-630ea6-h900.jpg<span class="pl-pds">"</span></span>);
+                    <span class="pl-k">case</span> <span class="pl-c1">2</span><span class="pl-k">:</span>
+                        <span class="pl-k">return</span> <span class="pl-smi">HeaderDesign</span><span class="pl-k">.</span>fromColorResAndUrl(
+                                <span class="pl-smi">R</span><span class="pl-k">.</span>color<span class="pl-k">.</span>cyan,
+                                <span class="pl-s"><span class="pl-pds">"</span>http://www.droid-life.com/wp-content/uploads/2014/10/lollipop-wallpapers10.jpg<span class="pl-pds">"</span></span>);
+                    <span class="pl-k">case</span> <span class="pl-c1">3</span><span class="pl-k">:</span>
+                        <span class="pl-k">return</span> <span class="pl-smi">HeaderDesign</span><span class="pl-k">.</span>fromColorResAndUrl(
+                                <span class="pl-smi">R</span><span class="pl-k">.</span>color<span class="pl-k">.</span>red,
+                                <span class="pl-s"><span class="pl-pds">"</span>http://www.tothemobile.com/wp-content/uploads/2014/07/original.jpg<span class="pl-pds">"</span></span>);
+                }
+
+                <span class="pl-c"><span class="pl-c">//</span>execute others actions if needed (ex : modify your header logo)</span>
+
+                <span class="pl-k">return</span> <span class="pl-c1">null</span>;
+            }
+        });</pre></div>
+<p>Available</p>
+<div class="highlight highlight-source-java"><pre><span class="pl-smi">HeaderDesign</span><span class="pl-k">.</span>fromColorAndUrl(<span class="pl-smi">Color</span><span class="pl-c1"><span class="pl-k">.</span>BLUE</span>,<span class="pl-s"><span class="pl-pds">"</span>http:...);</span>
+<span class="pl-s">HeaderDesign.fromColorResAndUrl(R.color.blue,<span class="pl-pds">"</span></span>http<span class="pl-k">:</span><span class="pl-c1">...</span>);
+<span class="pl-smi">HeaderDesign</span><span class="pl-k">.</span>fromColorAndDrawable(<span class="pl-smi">Color</span><span class="pl-c1"><span class="pl-k">.</span>BLUE</span>,myDrawable);
+<span class="pl-smi">HeaderDesign</span><span class="pl-k">.</span>fromColorResAndDrawable(<span class="pl-smi">R</span><span class="pl-k">.</span>color<span class="pl-k">.</span>blue,myDrawable);</pre></div>
+<h1><a id="user-content-toolbar" class="anchor" href="https://github.com/florent37/MaterialViewPager#toolbar" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Toolbar</h1>
+<div class="highlight highlight-source-java"><pre><span class="pl-smi">Toolbar</span> toolbar <span class="pl-k">=</span> mViewPager<span class="pl-k">.</span>getToolbar();
+
+<span class="pl-k">if</span> (toolbar <span class="pl-k">!=</span> <span class="pl-c1">null</span>) {
+     setSupportActionBar(toolbar);
+
+     <span class="pl-smi">ActionBar</span> actionBar <span class="pl-k">=</span> getSupportActionBar();
+     actionBar<span class="pl-k">.</span>setDisplayHomeAsUpEnabled(<span class="pl-c1">true</span>);
+     actionBar<span class="pl-k">.</span>setDisplayShowHomeEnabled(<span class="pl-c1">true</span>);
+     actionBar<span class="pl-k">.</span>setDisplayShowTitleEnabled(<span class="pl-c1">true</span>);
+     actionBar<span class="pl-k">.</span>setDisplayUseLogoEnabled(<span class="pl-c1">false</span>);
+     actionBar<span class="pl-k">.</span>setHomeButtonEnabled(<span class="pl-c1">true</span>);
+}</pre></div>
+<h1><a id="user-content-viewpager" class="anchor" href="https://github.com/florent37/MaterialViewPager#viewpager" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ViewPager</h1>
+<div class="highlight highlight-source-java"><pre><span class="pl-smi">ViewPager</span> viewPager <span class="pl-k">=</span> mViewPager<span class="pl-k">.</span>getViewPager();
+viewPage<span class="pl-k">.</span>setAdapter(<span class="pl-c1">...</span>);
+
+<span class="pl-c"><span class="pl-c">//</span>After set an adapter to the ViewPager</span>
+mViewPager<span class="pl-k">.</span>getPagerTitleStrip()<span class="pl-k">.</span>setViewPager(mViewPager<span class="pl-k">.</span>getViewPager());</pre></div>
+<h1><a id="user-content-recyclerview" class="anchor" href="https://github.com/florent37/MaterialViewPager#recyclerview" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>RecyclerView</h1>
+<div class="highlight highlight-source-java"><pre>mRecyclerView<span class="pl-k">.</span>setDecorator(<span class="pl-k">new</span> <span class="pl-smi">MaterialViewPagerHeaderDecorator</span>());
+mRecyclerView<span class="pl-k">.</span>setAdapter(yourAdapter);</pre></div>
+<h1><a id="user-content-scrollview" class="anchor" href="https://github.com/florent37/MaterialViewPager#scrollview" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ScrollView</h1>
+<p>The ScrollView must be an NestedScrollView`</p>
+<div class="highlight highlight-source-java"><pre><span class="pl-smi">MaterialViewPagerHelper</span><span class="pl-k">.</span>registerScrollView(getActivity(), mScrollView, <span class="pl-c1">null</span>);</pre></div>
+<p>And include @layout/material_view_pager_placeholder` as first child</p>
+<div class="highlight highlight-text-xml"><pre>&lt;<span class="pl-ent">android</span>.support.v4.widget.NestedScrollView
+    <span class="pl-e">xmlns</span><span class="pl-e">:</span><span class="pl-e">android</span>=<span class="pl-s"><span class="pl-pds">"</span>http://schemas.android.com/apk/res/android<span class="pl-pds">"</span></span>
+    <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>@+id/scrollView<span class="pl-pds">"</span></span>
+    <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">layout_width</span>=<span class="pl-s"><span class="pl-pds">"</span>match_parent<span class="pl-pds">"</span></span>
+    <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">layout_height</span>=<span class="pl-s"><span class="pl-pds">"</span>match_parent<span class="pl-pds">"</span></span>&gt;
+
+    &lt;<span class="pl-ent">LinearLayout</span>
+        <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">layout_width</span>=<span class="pl-s"><span class="pl-pds">"</span>match_parent<span class="pl-pds">"</span></span>
+        <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">layout_height</span>=<span class="pl-s"><span class="pl-pds">"</span>wrap_content<span class="pl-pds">"</span></span>
+        <span class="pl-e">android</span><span class="pl-e">:</span><span class="pl-e">orientation</span>=<span class="pl-s"><span class="pl-pds">"</span>vertical<span class="pl-pds">"</span></span>&gt;
+
+        &lt;<span class="pl-ent">include</span> <span class="pl-e">layout</span>=<span class="pl-s"><span class="pl-pds">"</span>@layout/material_view_pager_placeholder<span class="pl-pds">"</span></span>/&gt;
+
+        ...your content...
+
+    &lt;/<span class="pl-ent">LinearLayout</span>&gt;
+&lt;/<span class="pl-ent">android</span>.support.v4.widget.NestedScrollView&gt;</pre></div>
+<h1><a id="user-content-changelog" class="anchor" href="https://github.com/florent37/MaterialViewPager#changelog" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>CHANGELOG</h1>
+<h2><a id="user-content-120" class="anchor" href="https://github.com/florent37/MaterialViewPager#120" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1.2.0</h2>
+<ul>
+<li>header decorator instead of Adapter</li>
+</ul>
+<h2><a id="user-content-113" class="anchor" href="https://github.com/florent37/MaterialViewPager#113" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1.1.3</h2>
+<ul>
+<li>header is now clickable</li>
+<li>fixed some scrolling issues</li>
+</ul>
+<h2><a id="user-content-112" class="anchor" href="https://github.com/florent37/MaterialViewPager#112" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1.1.2</h2>
+<ul>
+<li>quick scroll fix</li>
+<li>can set a custom viewpager with app:viewpager_viewpager (the viewpager id must be id/materialviewpager_viewpager)</li>
+</ul>
+<h2><a id="user-content-110" class="anchor" href="https://github.com/florent37/MaterialViewPager#110" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1.1.0</h2>
+<ul>
+<li>orientation change fix</li>
+<li>header image display fix</li>
+<li>elements on header are now clickable</li>
+<li>notifyHeaderChanged</li>
+</ul>
+<h2><a id="user-content-108" class="anchor" href="https://github.com/florent37/MaterialViewPager#108" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1.0.8</h2>
+<ul>
+<li>added attribute viewpager_disableToolbar</li>
+</ul>
+<h2><a id="user-content-107" class="anchor" href="https://github.com/florent37/MaterialViewPager#107" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1.0.7</h2>
+<ul>
+<li>fix bug on low resolutions</li>
+</ul>
+<h2><a id="user-content-106" class="anchor" href="https://github.com/florent37/MaterialViewPager#106" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1.0.6</h2>
+<ul>
+<li>added attribute transparentToolbar</li>
+<li>added attribute animatedHeaderImage</li>
+<li>fixed bug when page is too small to scroll</li>
+<li>modified HeaderDesign implementation</li>
+</ul>
+<h2><a id="user-content-105" class="anchor" href="https://github.com/florent37/MaterialViewPager#105" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1.0.5</h2>
+<ul>
+<li>smoother toolbar scrolling</li>
+<li>fixed bug with fitSystemWindow</li>
+<li>added HeaderDesign to modify the header color &amp; image</li>
+<li>added displayToolbarWhenSwipe attribute</li>
+</ul>
+<h2><a id="user-content-104" class="anchor" href="https://github.com/florent37/MaterialViewPager#104" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1.0.4</h2>
+<p>Fixed :</p>
+<ul>
+<li>Orientation changed</li>
+<li>Memory Leak</li>
+<li>Android &gt;2.3 with NineOldAndroid</li>
+<li>Removed ListView usage</li>
+</ul>
+<h2><a id="user-content-103" class="anchor" href="https://github.com/florent37/MaterialViewPager#103" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1.0.3</h2>
+<p>Fixed :  Rapid scrolling results in varying Toolbar height</p>
+<p>RecyclerViewMaterialAdapter can handle a custom placeholder cells count (usefull for GridLayoutManager)</p>
+<div class="highlight highlight-source-java"><pre><span class="pl-k">public</span> RecyclerViewMaterialAdapter(<span class="pl-smi">RecyclerView</span><span class="pl-k">.</span><span class="pl-smi">Adapter</span> adapter, <span class="pl-k">int</span> placeholderSize)</pre></div>
+<h2><a id="user-content-102" class="anchor" href="https://github.com/florent37/MaterialViewPager#102" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1.0.2</h2>
+<p>Added attributes</p>
+<div class="highlight highlight-source-java"><pre>app<span class="pl-k">:</span>viewpager_parallaxHeaderFactor<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>1.5<span class="pl-pds">"</span></span>
+app<span class="pl-k">:</span>viewpager_headerAdditionalHeight<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>20dp<span class="pl-pds">"</span></span></pre></div>
+<p><em>parallaxHeaderFactor</em> Modify the speed of parallax header scroll (not the speed of KenBurns effect)
+<em>parallaxHeaderFactor</em> Set up the height of the header's layout displayed behind the first cards view</p>
+<p>Fixed issue when scroll down &amp; scroll up multiples time while hideToolbarAndTitle="true"</p>
+<h2><a id="user-content-101" class="anchor" href="https://github.com/florent37/MaterialViewPager#101" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1.0.1</h2>
+<p>Added attributes</p>
+<div class="highlight highlight-source-java"><pre>viewpager_headerAlpha<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>0.6<span class="pl-pds">"</span></span></pre></div>
+<h1><a id="user-content-community" class="anchor" href="https://github.com/florent37/MaterialViewPager#community" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Community</h1>
+<p>Looking for contributors, feel free to fork !</p>
+<p>Tell me if you're using my library in your application, I'll share it in this README</p>
+<h1><a id="user-content-dependencies" class="anchor" href="https://github.com/florent37/MaterialViewPager#dependencies" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Dependencies</h1>
+<ul>
+<li><a href="https://github.com/bumptech/glide">Glide</a> (from Bumptech)</li>
+<li><a href="https://github.com/flavioarfaria/KenBurnsView">KenBurnsView</a> (from flavioarfaria)</li>
+<li><a href="https://github.com/jpardogo/PagerSlidingTabStrip">Material PagerSlidingTabStrip</a> (from jpardogo, forked from astuetz)</li>
+</ul>
+<h1><a id="user-content-credits" class="anchor" href="https://github.com/florent37/MaterialViewPager#credits" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Credits</h1>
+<p>Author: Florent Champigny <a href="http://www.florentchampigny.com/">http://www.florentchampigny.com/</a></p>
+<a href="https://plus.google.com/+florentchampigny">
+  <img alt="Follow me on Google+" src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/gplus.png" style="max-width:100%;">
+</a>
+<a href="https://twitter.com/florent_champ">
+  <img alt="Follow me on Twitter" src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/twitter.png" style="max-width:100%;">
+</a>
+<a href="https://www.linkedin.com/in/florentchampigny">
+  <img alt="Follow me on LinkedIn" src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/linkedin.png" style="max-width:100%;">
+</a>
+<h2><a id="user-content-license" class="anchor" href="https://github.com/florent37/MaterialViewPager#license" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>License</h2>
+<pre><code>Copyright 2015 florent37, Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+</code></pre>
+</article>
+  </div>
+
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      <div class="container site-footer-container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links float-right">
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact GitHub</a></li>
+      <li><a href="https://developer.github.com/" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com/" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com/" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+
+    </ul>
+
+    <a href="https://github.com/" aria-label="Homepage" class="site-footer-mark" title="GitHub">
+      <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+</a>
+    <ul class="site-footer-links">
+      <li>© 2017 <span title="0.18390s from github-fe153-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a href="https://help.github.com/" data-ga-click="Footer, go to help, text:help">Help</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+  
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"></path></svg>
+    <button type="button" class="flash-close js-flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    
+    <script crossorigin="anonymous" integrity="sha256-tlavkG3w7CUvdoOudtuO01i/WzCb1XgfxGeuPB1XHCo=" src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/frameworks-b656af906df0ec252f7683ae76db8ed358bf5b309bd5781fc467ae3c1d571c2a.js.download"></script>
+    <script async="async" crossorigin="anonymous" integrity="sha256-veisKGbF8lBr9zleY1cht4+0ITaJl97YbJQWgiipD2M=" src="./florent37_MaterialViewPager_ A Material Design ViewPager easy to use library_files/github-bde8ac2866c5f2506bf7395e635721b78fb421368997ded86c94168228a90f63.js.download"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"></path></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="https://github.com/florent37/MaterialViewPager">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="https://github.com/florent37/MaterialViewPager">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+    </button>
+  </div>
+</div>
+
+
+  
+
+
+</body></html>
